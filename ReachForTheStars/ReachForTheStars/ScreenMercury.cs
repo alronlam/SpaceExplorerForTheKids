@@ -38,15 +38,10 @@ namespace ReachForTheStars
                 {
 
                     String command = Helper.GetFirstButtonPressCommand(listButtons, (int)touch.Position.X, (int)touch.Position.Y);
+
                     if (command.Equals("returnToSolarSystem")) 
                     {
-                        game.screenSolarSystem.ReturnHereFrom(this);
-                    }
-                    if (command.Equals("commandA"))
-                    {
-
-                        AnimationFixed background = new AnimationFixed(game.textureMercury, 1, 0, 800, 480, 0, 0, 0);
-                        NextScreen = new ScreenInfo(game, new Background(background, null), null, this);
+                        NextScreen = game.screenSolarSystem;
                     }
                     else if (command.Equals("button"))
                     {

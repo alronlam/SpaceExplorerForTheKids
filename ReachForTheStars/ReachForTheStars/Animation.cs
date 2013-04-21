@@ -41,6 +41,9 @@ namespace ReachForTheStars
             this.numFrames = numFrames;
             this.rotation = rotation;
 
+            if (numFrames == 0)
+                numFrames = 1;
+
             frameWidth = texture.Width / numFrames;
             frameHeight = texture.Height;
             animationCounter = 0;

@@ -14,7 +14,7 @@ namespace ReachForTheStars
         public Animation animation;
         public int centerX;
         public int centerY;
-        public const int SPEED = 2;
+        public const int SPEED = 5;
         public double rotation;
 
 

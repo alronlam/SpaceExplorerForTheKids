@@ -28,7 +28,6 @@ namespace ReachForTheStars
         {
             background.Draw(gameTime, spriteBatch);
             DrawButtons(gameTime, spriteBatch);
-
         }
 
 
@@ -44,9 +43,12 @@ namespace ReachForTheStars
 
                     String command = Helper.GetFirstButtonPressCommand(listButtons, (int)touch.Position.X, (int)touch.Position.Y);
 
-                    if (command.Equals("moon"))
+                    if (command.Equals("returnToSolarSystem"))
                     {
-
+                        NextScreen = game.screenSolarSystem;
+                    }
+                    else if (command.Equals("moon"))
+                    {
                         AnimationFixed background = new AnimationFixed(game.textureUranusMoonInfo, 1, 0, 800, 480, 0, 0, 0);
                         NextScreen = new ScreenInfo(game, new Background(background, null), null, this);
                     }

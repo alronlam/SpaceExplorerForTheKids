@@ -44,7 +44,11 @@ namespace ReachForTheStars
 
                     String command = Helper.GetFirstButtonPressCommand(listButtons, (int)touch.Position.X, (int)touch.Position.Y);
 
-                    if (command.Equals("nasa"))
+                    if (command.Equals("returnToSolarSystem"))
+                    {
+                        NextScreen = game.screenSolarSystem;
+                    }
+                    else if (command.Equals("nasa"))
                     {
 
                         AnimationFixed background = new AnimationFixed(game.textureJupiterNASAInfo, 1, 0, 800, 480, 0, 0, 0);

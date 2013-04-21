@@ -16,9 +16,9 @@ namespace ReachForTheStars
     /// <summary>
     /// This is a game component that implements IUpdateable.
     /// </summary>
-    public class ScreenEarth : ScreenPlanet
+    public class ScreenUranus  : ScreenPlanet
     {
-        public ScreenEarth(Game1 game, Background background, List<Button> listButtons) 
+        public ScreenUranus(Game1 game, Background background, List<Button> listButtons) 
             :base (game, background, listButtons)
         {
             // TODO: Construct any child components here
@@ -44,26 +44,34 @@ namespace ReachForTheStars
 
                     String command = Helper.GetFirstButtonPressCommand(listButtons, (int)touch.Position.X, (int)touch.Position.Y);
 
-                    if (command.Equals("returnToSolarSystem"))
-                    {
-                        NextScreen = game.screenSolarSystem;
-                    }
-                    else if (command.Equals("people"))
+                    if (command.Equals("moon"))
                     {
 
-                        AnimationFixed background = new AnimationFixed(game.textureEarthPeopleInfo, 1, 0, 800, 480, 0, 0, 0);
+                        AnimationFixed background = new AnimationFixed(game.textureUranusMoonInfo, 1, 0, 800, 480, 0, 0, 0);
                         NextScreen = new ScreenInfo(game, new Background(background, null), null, this);
                     }
-                    else if (command.Equals("water"))
+                    else if (command.Equals("ring"))
                     {
 
-                        AnimationFixed background = new AnimationFixed(game.textureEarthWaterInfo, 1, 0, 800, 480, 0, 0, 0);
+                        AnimationFixed background = new AnimationFixed(game.textureUranusRingInfo, 1, 0, 800, 480, 0, 0, 0);
                         NextScreen = new ScreenInfo(game, new Background(background, null), null, this);
                     }
-                    else if (command.Equals("moon"))
+                    else if (command.Equals("wind"))
                     {
 
-                        AnimationFixed background = new AnimationFixed(game.textureEarthMoonInfo, 1, 0, 800, 480, 0, 0, 0);
+                        AnimationFixed background = new AnimationFixed(game.textureUranusWindInfo, 1, 0, 800, 480, 0, 0, 0);
+                        NextScreen = new ScreenInfo(game, new Background(background, null), null, this);
+                    }
+                    else if (command.Equals("ocean"))
+                    {
+
+                        AnimationFixed background = new AnimationFixed(game.textureUranusOceanInfo, 1, 0, 800, 480, 0, 0, 0);
+                        NextScreen = new ScreenInfo(game, new Background(background, null), null, this);
+                    }
+                    else if (command.Equals("nasa"))
+                    {
+
+                        AnimationFixed background = new AnimationFixed(game.textureUranusNASAInfo, 1, 0, 800, 480, 0, 0, 0);
                         NextScreen = new ScreenInfo(game, new Background(background, null), null, this);
                     }
                 }

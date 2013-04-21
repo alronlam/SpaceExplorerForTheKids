@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\mercury.xnb</Output>
-      <Time>2013-04-21T00:02:52+08:00</Time>
+      <Time>2013-04-21T16:41:37.4441759+08:00</Time>
     </Item>
     <Item>
       <Source>rocket.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\back.xnb</Output>
-      <Time>2013-04-21T00:31:16+08:00</Time>
+      <Time>2013-04-21T16:27:36.9821042+08:00</Time>
     </Item>
     <Item>
       <Source>haha.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_main.xnb</Output>
-      <Time>2013-04-21T02:15:42+08:00</Time>
+      <Time>2013-04-21T16:42:01.6305593+08:00</Time>
     </Item>
     <Item>
       <Source>background_about.png</Source>
@@ -98,7 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_about.xnb</Output>
-      <Time>2013-04-21T02:41:58+08:00</Time>
+      <Time>2013-04-21T16:42:01.5775563+08:00</Time>
     </Item>
     <Item>
       <Source>bomb.png</Source>
@@ -117,6 +117,141 @@
       <Options>None</Options>
       <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\galaxy.xnb</Output>
       <Time>2013-04-21T03:01:08+08:00</Time>
+    </Item>
+    <Item>
+      <Source>venus.png</Source>
+      <Name>venus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\venus.xnb</Output>
+      <Time>2013-04-21T16:41:35.032038+08:00</Time>
+    </Item>
+    <Item>
+      <Source>earth.png</Source>
+      <Name>earth</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\earth.xnb</Output>
+      <Time>2013-04-21T13:02:02+08:00</Time>
+    </Item>
+    <Item>
+      <Source>jupiter.png</Source>
+      <Name>jupiter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\jupiter.xnb</Output>
+      <Time>2013-04-21T16:41:35.277052+08:00</Time>
+    </Item>
+    <Item>
+      <Source>mars.png</Source>
+      <Name>mars</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\mars.xnb</Output>
+      <Time>2013-04-21T16:41:35.347056+08:00</Time>
+    </Item>
+    <Item>
+      <Source>neptune.png</Source>
+      <Name>neptune</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\neptune.xnb</Output>
+      <Time>2013-04-21T16:41:37.551182+08:00</Time>
+    </Item>
+    <Item>
+      <Source>saturn.png</Source>
+      <Name>saturn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\saturn.xnb</Output>
+      <Time>2013-04-21T16:41:37.5721832+08:00</Time>
+    </Item>
+    <Item>
+      <Source>uranus.png</Source>
+      <Name>uranus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\uranus.xnb</Output>
+      <Time>2013-04-21T16:41:37.585184+08:00</Time>
+    </Item>
+    <Item>
+      <Source>background_earth.png</Source>
+      <Name>background_earth</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_earth.xnb</Output>
+      <Time>2013-04-21T16:42:01.6135583+08:00</Time>
+    </Item>
+    <Item>
+      <Source>background_jupiter.png</Source>
+      <Name>background_jupiter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_jupiter.xnb</Output>
+      <Time>2013-04-21T16:42:01.6225588+08:00</Time>
+    </Item>
+    <Item>
+      <Source>background_mars.png</Source>
+      <Name>background_mars</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_mars.xnb</Output>
+      <Time>2013-04-21T16:42:01.6385598+08:00</Time>
+    </Item>
+    <Item>
+      <Source>background_mercury.png</Source>
+      <Name>background_mercury</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_mercury.xnb</Output>
+      <Time>2013-04-21T16:42:01.6515605+08:00</Time>
+    </Item>
+    <Item>
+      <Source>background_neptune.png</Source>
+      <Name>background_neptune</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_neptune.xnb</Output>
+      <Time>2013-04-21T16:42:01.7215645+08:00</Time>
+    </Item>
+    <Item>
+      <Source>background_saturn.png</Source>
+      <Name>background_saturn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_saturn.xnb</Output>
+      <Time>2013-04-21T16:42:01.7325651+08:00</Time>
+    </Item>
+    <Item>
+      <Source>background_uranus.png</Source>
+      <Name>background_uranus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_uranus.xnb</Output>
+      <Time>2013-04-21T16:42:01.7455659+08:00</Time>
+    </Item>
+    <Item>
+      <Source>background_venus.png</Source>
+      <Name>background_venus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_venus.xnb</Output>
+      <Time>2013-04-21T16:41:59.0774133+08:00</Time>
     </Item>
     <Item>
       <Source>arial.spritefont</Source>

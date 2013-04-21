@@ -10,8 +10,17 @@ using Microsoft.Devices.Sensors;
 
 namespace ReachForTheStars
 {
-    public class ScreenSolarSystem: Screen
-    {        
+    public class ScreenSolarSystem : Screen
+    {
+        const double SCALE_DIAMETER_MERCURY = 0.383;
+        const double SCALE_DIAMETER_VENUS = 0.949;
+        const double SCALE_DIAMETER_EARTH = 1;
+        const double SCALE_DIAMETER_MARS = 0.532;
+        const double SCALE_DIAMETER_JUPITER = 11.21;
+        const double SCALE_DIAMETER_SATURN = 9.45;
+        const double SCALE_DIAMETER_URANUS = 4.01;
+        const double SCALE_DIAMETER_NEPTUNE = 3.88;
+
         Rocket rocket;
         List<Planet> listPlanets;
         Accelerometer accelerometer;
@@ -19,20 +28,20 @@ namespace ReachForTheStars
         float threshold;
         SensorReadingEventArgs<AccelerometerReading> accelState;
         int visited;
-        bool justReturned;
+        Button buttonEnterPlanet;
 
         public ScreenSolarSystem(Game1 game, BackgroundScrollable background)
-            :base(game, background)
+            : base(game, background)
         {
-            rocket = new Rocket(game, new Animation(game.textureRocket, 68, 126), background.bgAnimation.displayWidth/2, background.bgAnimation.displayHeight/2);
+            int rocketWidth = (int)(0.5 * 80);
+            rocket = new Rocket(game, new Animation(game.textureRocket, rocketWidth, rocketWidth*126/68), background.bgAnimation.displayWidth / 2, background.bgAnimation.displayHeight / 2);
             listPlanets = new List<Planet>();
             InitPlanets();
             accelerometer = new Accelerometer();
-            justReturned = false;
-
+            buttonEnterPlanet = new Button(new Animation(game.textureButtonEnterPlanet, 100, 50), "enterPlanet", 10, 10);
         }
 
-        void Accelerometer_ReadingChanged(object sender, AccelerometerReadingEventArgs e) 
+        void Accelerometer_ReadingChanged(object sender, AccelerometerReadingEventArgs e)
         {
             Vector3 accelerationInfo = accelState == null ? Vector3.Zero :
             new Vector3((float)accelState.SensorReading.Acceleration.X, (float)accelState.SensorReading.Acceleration.Y, (float)accelState.SensorReading.Acceleration.Z);
@@ -40,10 +49,20 @@ namespace ReachForTheStars
 
         public void InitPlanets()
         {
-            listPlanets.Add(new Planet("Mercury", new Animation(game.textureMiniMercury, 80, 80), 600, 180));
+            int earthWidth = 80;
+            int earthHeight = 80;
+            listPlanets.Add(new Planet("Mercury", new Animation(game.textureMiniMercury,(int)( earthWidth*SCALE_DIAMETER_MERCURY), (int)(earthHeight*SCALE_DIAMETER_MERCURY)), 200, 200));
+            listPlanets.Add(new Planet("Venus", new Animation(game.textureMiniVenus, (int)(earthWidth * SCALE_DIAMETER_VENUS), (int)(earthHeight * SCALE_DIAMETER_VENUS)), 400, 200));
+            //listPlanets.Add(new Planet("Earth", new Animation(game.textureMiniEarth, (int)(earthWidth * SCALE_DIAMETER_EARTH), (int)(earthHeight * SCALE_DIAMETER_EARTH)), 600, 200));
+            listPlanets.Add(new Planet("Mars", new Animation(game.textureMiniMars, (int)(earthWidth * SCALE_DIAMETER_MARS), (int)(earthHeight * SCALE_DIAMETER_MARS)), 800, 200));
+            listPlanets.Add(new Planet("Jupiter", new Animation(game.textureMiniJupiter, (int)(earthWidth * SCALE_DIAMETER_JUPITER), (int)(earthHeight * SCALE_DIAMETER_JUPITER)), 1000, 200));
+            listPlanets.Add(new Planet("Saturn", new Animation(game.textureMiniSaturn, (int)(earthWidth * SCALE_DIAMETER_SATURN), (int)(earthHeight * SCALE_DIAMETER_SATURN)), 200, 800));
+            listPlanets.Add(new Planet("Uranus", new Animation(game.textureMiniUranus, (int)(earthWidth * SCALE_DIAMETER_URANUS), (int)(earthHeight * SCALE_DIAMETER_URANUS)), 600, 800));
+            listPlanets.Add(new Planet("Neptune", new Animation(game.textureMiniNeptune, (int)(earthWidth * SCALE_DIAMETER_NEPTUNE), (int)(earthHeight * SCALE_DIAMETER_NEPTUNE)), 1000, 800));
+            
         }
 
-        private void ProcessTouch(GameTime gameTime, TouchCollection touchCollection) 
+        private void ProcessTouch(GameTime gameTime, TouchCollection touchCollection)
         {
             if (touchCollection.Count > 0)
             {
@@ -79,33 +98,40 @@ namespace ReachForTheStars
             BackgroundScrollable bgs = (BackgroundScrollable)this.background;
             Point topLeftBG = bgs.GetTopLeftCoordinate();
 
-            if (justReturned)
+            foreach (Planet planet in listPlanets)
             {
-                bool found = false;
-                foreach (Planet planet in listPlanets)
+                if (planet.Intersects(rocket, (int)topLeftBG.X, (int)topLeftBG.Y, bgs.scale))
                 {
-                    if (planet.Intersects(rocket, (int)topLeftBG.X, (int)topLeftBG.Y, bgs.scale))
+                    if (touchCollection.Count > 0) 
                     {
-                        found = true;
-                        break;
-                    }
-                }
-                if (!found)
-                    justReturned = false;
-            }
-            else
-            {
-                foreach (Planet planet in listPlanets)
-                {
-                    if (planet.Intersects(rocket, (int)topLeftBG.X, (int)topLeftBG.Y, bgs.scale))
-                    {
-                        if (!planet.isVisited)
+                        TouchLocation touch = touchCollection[0];
+                        if (touch.State == TouchLocationState.Pressed)
                         {
-                            visited++;
-                            planet.isVisited = true;
+                            if(buttonEnterPlanet.IsPressed((int)touch.Position.X, (int)touch.Position.Y))
+                            {
+                                if (!planet.isVisited)
+                                {
+                                    visited++;
+                                    planet.isVisited = true;
+                                }
+                                if (planet.name.Equals("Mercury"))
+                                    NextScreen = game.GetNewScreenMercury();
+                                else if (planet.name.Equals("Venus"))
+                                    NextScreen = game.GetNewScreenVenus();
+                                else if (planet.name.Equals("Earth"))
+                                    NextScreen = game.GetNewScreenEarth();
+                                else if (planet.name.Equals("Mars"))
+                                    NextScreen = game.GetNewScreenMars();
+                                else if (planet.name.Equals("Jupiter"))
+                                    NextScreen = game.GetNewScreenJupiter();
+                                else if (planet.name.Equals("Saturn"))
+                                    NextScreen = game.GetNewScreenSaturn();
+                                else if (planet.name.Equals("Uranus"))
+                                    NextScreen = game.GetNewScreenUranus();
+                                else if (planet.name.Equals("Neptune"))
+                                    NextScreen = game.GetNewScreenNeptune();
+                            }
                         }
-                        if (planet.name.Equals("Mercury"))
-                            NextScreen = game.GetNewScreenMercury();
                     }
                 }
             }
@@ -115,31 +141,25 @@ namespace ReachForTheStars
         {
             BackgroundScrollable backgroundScrollable = (BackgroundScrollable)this.background;
             backgroundScrollable.Draw(gameTime, spriteBatch);
-            rocket.Draw(gameTime, spriteBatch);
-
-            spriteBatch.DrawString(game.arialFont, "Visited:"+visited/listPlanets.Count, Vector2.Zero, Color.Red);
+            
+            spriteBatch.DrawString(game.arialFont, "Visited:" + visited / listPlanets.Count, Vector2.Zero, Color.Red);
 
             Rectangle currRectangle;
             Animation animation;
             Point topLeftBG = backgroundScrollable.GetTopLeftCoordinate();
-            foreach (Planet planet in listPlanets) 
+            foreach (Planet planet in listPlanets)
             {
                 animation = planet.animation;
-                currRectangle = new Rectangle(planet.centerX-animation.displayWidth/2, planet.centerY - animation.displayHeight/2, animation.displayWidth, animation.displayHeight);
+                currRectangle = new Rectangle(planet.centerX - animation.displayWidth / 2, planet.centerY - animation.displayHeight / 2, animation.displayWidth, animation.displayHeight);
                 if (backgroundScrollable.IsRectangleWithinVisibility(currRectangle))
                 {
                     planet.Draw(gameTime, spriteBatch, (int)topLeftBG.X, (int)topLeftBG.Y, backgroundScrollable.scale);
+                    if (planet.Intersects(rocket, topLeftBG.X, topLeftBG.Y, backgroundScrollable.scale))
+                        buttonEnterPlanet.Draw(gameTime, spriteBatch);
                 }
             }
-        }
 
-        public void ReturnHereFrom(Screen prevScreen) 
-        {
-            BackgroundScrollable bgs = (BackgroundScrollable)this.background;
-            //bgs.Scroll(20, 20);
-
-            justReturned = true;
-            prevScreen.NextScreen = this;
+            rocket.Draw(gameTime, spriteBatch);
         }
     }
 }

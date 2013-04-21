@@ -28,10 +28,8 @@ namespace ReachForTheStars
         {
             background.Draw(gameTime, spriteBatch);
             DrawButtons(gameTime, spriteBatch);
-
+            
         }
-
-
 
         public override void Update(GameTime gameTime, TouchCollection touchCollection)
         {
@@ -44,7 +42,11 @@ namespace ReachForTheStars
 
                     String command = Helper.GetFirstButtonPressCommand(listButtons, (int)touch.Position.X, (int)touch.Position.Y);
 
-                    if (command.Equals("moon"))
+                    if (command.Equals("returnToSolarSystem"))
+                    {
+                        NextScreen = game.screenSolarSystem;
+                    }
+                    else if (command.Equals("moon"))
                     {
 
                         AnimationFixed background = new AnimationFixed(game.textureNeptuneMoonInfo, 1, 0, 800, 480, 0, 0, 0);

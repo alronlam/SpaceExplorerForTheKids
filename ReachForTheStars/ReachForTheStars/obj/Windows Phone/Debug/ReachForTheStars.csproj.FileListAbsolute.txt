@@ -47,9 +47,18 @@ D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForThe
 D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\bomb.xnb
 D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\galaxy.xnb
 D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\arial.xnb
-D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\ReachForTheStars.xap
-D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\XapCacheFile.xml
-D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\AppManifest.xaml
-D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\WMAppManifest.xml.g
-D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\WMAppManifest.xml
-bin\Windows Phone\Debug\
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\venus.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\earth.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\jupiter.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\mars.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\neptune.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\saturn.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\uranus.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_earth.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_jupiter.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_mars.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_mercury.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_neptune.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_saturn.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_uranus.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_venus.xnb

@@ -27,7 +27,6 @@ namespace ReachForTheStars
             Texture2D rocketTexture = game.textureRocket;
             this.listButtons.Add(new Button(new Animation(rocketTexture, displayWidth, displayHeight), null,  "returnToSolarSystem", x, y, "Return to Solar System", game.arialFont,Button.STRING_CENTER, Color.White));
 
-           
             AddButtons();
             SetRocket(this.listButtons.Count-1);
         }
@@ -41,7 +40,6 @@ namespace ReachForTheStars
             }
         }
 
-        
         public abstract void AddButtons();
         public abstract void SetRocket(int listButtonIndexOfRocket);
         public override abstract void Update(GameTime gameTime, TouchCollection touchCollection);

@@ -1,2 +1,2 @@
-D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStarsContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
 C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStarsContent\obj\Windows Phone\Debug\ReachForTheStarsContent.contentprojResolveAssemblyReference.cache
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStarsContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache

@@ -107,6 +107,15 @@ namespace ReachForTheStars
 
         //Mini planets
         public Texture2D textureMiniMercury;
+        public Texture2D textureMiniVenus;
+        public Texture2D textureMiniEarth;
+        public Texture2D textureMiniMars;
+        public Texture2D textureMiniJupiter;
+        public Texture2D textureMiniSaturn;
+        public Texture2D textureMiniUranus;
+        public Texture2D textureMiniNeptune;
+
+        public Texture2D textureButtonEnterPlanet;
 
         //TEST
         public Texture2D textureButton;
@@ -169,7 +178,26 @@ namespace ReachForTheStars
             textureMenu = Content.Load<Texture2D>("background_main");
             textureAboutBackground = Content.Load<Texture2D>("background_about");
             textureGalaxy = Content.Load<Texture2D>("galaxy");
-            textureMiniMercury = Content.Load<Texture2D>("bomb");
+            textureMiniMercury = Content.Load<Texture2D>("mercury");
+            textureMiniVenus = Content.Load<Texture2D>("venus");
+            //textureMiniEarth = Content.Load<Texture2D>("earth");
+            textureMiniMars = Content.Load<Texture2D>("mars");
+            textureMiniJupiter = Content.Load<Texture2D>("jupiter");
+            textureMiniSaturn = Content.Load<Texture2D>("saturn");
+            textureMiniUranus = Content.Load<Texture2D>("uranus");
+            textureMiniNeptune = Content.Load<Texture2D>("neptune");
+
+            textureButtonEnterPlanet = Content.Load<Texture2D>("bomb");
+
+            textureMercury = Content.Load<Texture2D>("background_mercury");
+            textureVenus = Content.Load<Texture2D>("background_venus");
+            textureEarth = Content.Load<Texture2D>("background_earth");
+            textureMars = Content.Load<Texture2D>("background_mars");
+            textureJupiter = Content.Load<Texture2D>("background_jupiter");
+            textureSaturn = Content.Load<Texture2D>("background_saturn");
+            textureUranus = Content.Load<Texture2D>("background_uranus");
+            textureNeptune = Content.Load<Texture2D>("background_neptune");
+
 
             //TEST
             textureButton = Content.Load<Texture2D>("haha");
@@ -238,11 +266,53 @@ namespace ReachForTheStars
             return new ScreenMercury(this, new Background(background, null), null);
         }
 
+        public ScreenVenus GetNewScreenVenus()
+        {
+            AnimationFixed background = new AnimationFixed(textureVenus, 1, 0, 800, 480, 0, 0, 0);
+            return new ScreenVenus(this, new Background(background, null), null);
+        }
+
+        public ScreenEarth GetNewScreenEarth()
+        {
+            AnimationFixed background = new AnimationFixed(textureEarth, 1, 0, 800, 480, 0, 0, 0);
+            return new ScreenEarth(this, new Background(background, null), null);
+        }
+
+        public ScreenMars GetNewScreenMars()
+        {
+            AnimationFixed background = new AnimationFixed(textureMars, 1, 0, 800, 480, 0, 0, 0);
+            return new ScreenMars(this, new Background(background, null), null);
+        }
+
+        public ScreenJupiter GetNewScreenJupiter()
+        {
+            AnimationFixed background = new AnimationFixed(textureJupiter, 1, 0, 800, 480, 0, 0, 0);
+            return new ScreenJupiter(this, new Background(background, null), null);
+        }
+
+        public ScreenSaturn GetNewScreenSaturn()
+        {
+            AnimationFixed background = new AnimationFixed(textureSaturn, 1, 0, 800, 480, 0, 0, 0);
+            return new ScreenSaturn(this, new Background(background, null), null);
+        }
+
+        public ScreenUranus GetNewScreenUranus()
+        {
+            AnimationFixed background = new AnimationFixed(textureUranus, 1, 0, 800, 480, 0, 0, 0);
+            return new ScreenUranus(this, new Background(background, null), null);
+        }
+
+        public ScreenNeptune GetNewScreenNeptune()
+        {
+            AnimationFixed background = new AnimationFixed(textureNeptune, 1, 0, 800, 480, 0, 0, 0);
+            return new ScreenNeptune(this, new Background(background, null), null);
+        }
+
         public ScreenSolarSystem GetNewScreenSolarSystem()
         {
             AnimationFixed background = new AnimationFixed(textureGalaxy, 1, 0, 800, 480, 0, 0, 0);
             //currScreen = new ScreenMercury(this, new Background(background,null), null);
-            int scaleMultiplier = 4;
+            int scaleMultiplier = 2;
             int centerX = screenRectangle.Width / 2 * scaleMultiplier;
             int centerY = screenRectangle.Height / 2 * scaleMultiplier;
             screenSolarSystem = new ScreenSolarSystem(this, new BackgroundScrollable(background, null, this, 400, 240, scaleMultiplier));

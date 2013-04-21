@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReachForTheStars", "ReachForTheStars\ReachForTheStars\ReachForTheStars.csproj", "{821DCF61-F603-4430-B19B-F0C6A24A4370}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "ReachForTheStarsContent", "ReachForTheStars\ReachForTheStarsContent\ReachForTheStarsContent.contentproj", "{C64B0E46-3A19-4BBE-9BC0-A3B23FA5898D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{821DCF61-F603-4430-B19B-F0C6A24A4370}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{821DCF61-F603-4430-B19B-F0C6A24A4370}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{821DCF61-F603-4430-B19B-F0C6A24A4370}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{821DCF61-F603-4430-B19B-F0C6A24A4370}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{821DCF61-F603-4430-B19B-F0C6A24A4370}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{821DCF61-F603-4430-B19B-F0C6A24A4370}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+		{C64B0E46-3A19-4BBE-9BC0-A3B23FA5898D}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{C64B0E46-3A19-4BBE-9BC0-A3B23FA5898D}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

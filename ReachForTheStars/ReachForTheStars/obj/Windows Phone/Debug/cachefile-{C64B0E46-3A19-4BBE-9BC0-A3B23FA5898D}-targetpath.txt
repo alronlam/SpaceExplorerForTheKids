@@ -1,0 +1,14 @@
+Content\mercury.xnb
+Content\rocket.xnb
+Content\back.xnb
+Content\haha.xnb
+Content\bg.xnb
+Content\bg2.xnb
+Content\char.xnb
+Content\button_about.xnb
+Content\button_play.xnb
+Content\background_main.xnb
+Content\background_about.xnb
+Content\bomb.xnb
+Content\galaxy.xnb
+Content\arial.xnb

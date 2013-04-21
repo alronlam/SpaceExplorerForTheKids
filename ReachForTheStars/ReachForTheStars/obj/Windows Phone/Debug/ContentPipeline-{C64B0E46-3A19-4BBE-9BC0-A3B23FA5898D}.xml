@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>mercury.png</Source>
+      <Name>mercury</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\mercury.xnb</Output>
+      <Time>2013-04-21T00:02:52+08:00</Time>
+    </Item>
+    <Item>
+      <Source>rocket.png</Source>
+      <Name>rocket</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\rocket.xnb</Output>
+      <Time>2013-04-21T03:03:10+08:00</Time>
+    </Item>
+    <Item>
+      <Source>back.png</Source>
+      <Name>back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\back.xnb</Output>
+      <Time>2013-04-21T00:31:16+08:00</Time>
+    </Item>
+    <Item>
+      <Source>haha.png</Source>
+      <Name>haha</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\haha.xnb</Output>
+      <Time>2013-04-20T21:19:58+08:00</Time>
+    </Item>
+    <Item>
+      <Source>bg.png</Source>
+      <Name>bg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\bg.xnb</Output>
+      <Time>2013-04-20T21:49:38+08:00</Time>
+    </Item>
+    <Item>
+      <Source>bg2.png</Source>
+      <Name>bg2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\bg2.xnb</Output>
+      <Time>2013-04-20T22:12:06+08:00</Time>
+    </Item>
+    <Item>
+      <Source>char.png</Source>
+      <Name>char</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\char.xnb</Output>
+      <Time>2013-04-20T23:14:08+08:00</Time>
+    </Item>
+    <Item>
+      <Source>button_about.png</Source>
+      <Name>button_about</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\button_about.xnb</Output>
+      <Time>2013-04-21T02:15:42+08:00</Time>
+    </Item>
+    <Item>
+      <Source>button_play.png</Source>
+      <Name>button_play</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\button_play.xnb</Output>
+      <Time>2013-04-21T02:15:42+08:00</Time>
+    </Item>
+    <Item>
+      <Source>background_main.png</Source>
+      <Name>background_main</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_main.xnb</Output>
+      <Time>2013-04-21T02:15:42+08:00</Time>
+    </Item>
+    <Item>
+      <Source>background_about.png</Source>
+      <Name>background_about</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_about.xnb</Output>
+      <Time>2013-04-21T02:41:58+08:00</Time>
+    </Item>
+    <Item>
+      <Source>bomb.png</Source>
+      <Name>bomb</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\bomb.xnb</Output>
+      <Time>2013-04-21T02:59:08+08:00</Time>
+    </Item>
+    <Item>
+      <Source>galaxy.png</Source>
+      <Name>galaxy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\galaxy.xnb</Output>
+      <Time>2013-04-21T03:01:08+08:00</Time>
+    </Item>
+    <Item>
+      <Source>arial.spritefont</Source>
+      <Name>arial</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\arial.xnb</Output>
+      <Time>2013-04-21T10:28:37.1404756+08:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{C64B0E46-3A19-4BBE-9BC0-A3B23FA5898D}</ContentProjectGUID>
+      <TargetPlatform>WindowsPhone</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStarsContent\</RootDirectory>
+      <LoggerRootDirectory>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-10-25T00:24:10.7717024+08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

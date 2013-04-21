@@ -1,0 +1,5 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="ReachForTheStars" EntryPointType="ReachForTheStars.Game1" RuntimeVersion="3.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="ReachForTheStars" Source="ReachForTheStars.dll" />
+  </Deployment.Parts>
+</Deployment>

@@ -1,0 +1,55 @@
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\mercury.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\rocket.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\ReachForTheStars.dll
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\ReachForTheStars.pdb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\ReachForTheStars.dll
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\ReachForTheStars.pdb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\AppManifest.xaml
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\WMAppManifest.xml.g
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\ReachForTheStars.xap
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\ReachForTheStars.dll
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\mercury.xnb
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\rocket.xnb
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\back.xnb
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\ReachForTheStars.dll
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\ReachForTheStars.pdb
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\ReachForTheStars.pdb
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\WMAppManifest.xml
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\ReachForTheStars.xap
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\haha.xnb
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\bg.xnb
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\bg2.xnb
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\char.xnb
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\button_about.xnb
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\button_play.xnb
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_main.xnb
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_about.xnb
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\bomb.xnb
+C:\Users\LorddMichael\Desktop\Reach\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\galaxy.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\back.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\haha.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\bg.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\bg2.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\char.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\button_about.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\button_play.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_main.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\background_about.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\bomb.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\galaxy.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\Content\arial.xnb
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\ReachForTheStars.xap
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\XapCacheFile.xml
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\bin\Windows Phone\Debug\AppManifest.xaml
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\WMAppManifest.xml.g
+D:\Alron\DLSU\School Work\6th Term\ReachForTheStars\ReachForTheStars\ReachForTheStars\ReachForTheStars\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\
